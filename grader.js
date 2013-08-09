@@ -26,7 +26,7 @@ var program = require('commander');
 var cheerio = require('cheerio');
 var HTMLFILE_DEFAULT = "index.html";
 var CHECKSFILE_DEFAULT = "checks.json";
-var URL_DEFAULT = "http://mysterious-garden-5177.herokuapp.com";
+var URL_DEFAULT = "url_file";
 
 var assertFileExists = function(infile) {
     var instr = infile.toString();
